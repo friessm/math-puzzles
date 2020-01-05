@@ -1,5 +1,7 @@
-# Project 1: https://projecteuler.net/problem=1
-
+"""
+Solution to Project Euler problem 1
+Problem 1: https://projecteuler.net/problem=1
+"""
 def multiple_of_three_or_five(upper_bound):
     multiples_list = []
     for number in range(1, upper_bound):
