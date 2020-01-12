@@ -1,6 +1,6 @@
 """
 Solution to Project Euler problem 2
-Problem 1: https://projecteuler.net/problem=2
+https://projecteuler.net/problem=2
 """
 
 def even_fibunacci(number_1, number_2):

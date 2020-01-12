@@ -1,6 +1,6 @@
 """
 Solution to Project Euler problem 3
-Problem 1: https://projecteuler.net/problem=3
+https://projecteuler.net/problem=3
 """
 
 def trial_division(number):
