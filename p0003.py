@@ -5,7 +5,6 @@ Problem 1: https://projecteuler.net/problem=3
 
 def trial_division(number):
     """Trial division because modern computers are fast."""
-    
     last_factor = 0            
     factor = 2
     while number > 1:         
