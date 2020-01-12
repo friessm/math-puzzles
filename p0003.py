@@ -5,15 +5,16 @@ Problem 1: https://projecteuler.net/problem=3
 
 def trial_division(number):
     """Trial division because modern computers are fast."""
-    array = []               
+    
+    last_factor = 0            
     factor = 2
     while number > 1:         
         if number % factor == 0:   
-            array.append(factor)  
+            last_factor = factor
             number /= factor
         else:            
-            factor += 1       
-    return array[-1]
+            factor += 1
+    return last_factor
 
 
 if __name__ == "__main__":
