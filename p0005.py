@@ -9,8 +9,8 @@ def lowest_common_multiple(upper_bound):
     """ 
     Find the lowest common multiple (LCM).
     
-    LCM(a, b), where b > a. Increment by b, because b mod a can 
-    never be 0 since b > a. Check if a mod multiple(b) is 0. If 
+    LCM(a, b), where b > a. Increment by b, because a mod b can 
+    never be 0 since b > a. Check if b + b mod a is 0. If 
     yes, then the LCM has been found. If no, increment by b. 
 
     """
