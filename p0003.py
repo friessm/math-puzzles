@@ -15,7 +15,6 @@ def trial_division(number):
             factor += 1
     return last_factor
 
-
 if __name__ == "__main__":
     print(trial_division(600851475143))
     
