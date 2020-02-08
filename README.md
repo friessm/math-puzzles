@@ -1,1 +1,1 @@
-# Math puzzles with solution
+# Solutions to math and programming puzzles
