@@ -15,6 +15,14 @@ def sieve_of_eratosthenes(number):
 
     https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 
+
+    The Sieve has to start with the lowest prime (n=2). So
+    no lower bound is necessary. The upper bound is given by
+    n ln(n ln n) for n>= 6. We can use this as the upper bound
+    since 10001 > 6.
+
+    https://en.wikipedia.org/wiki/Prime-counting_function#Inequalities
+
     """
 
     upper_bound = ceil(number*log(number*log(number)))
