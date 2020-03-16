@@ -16,7 +16,7 @@ def sum_of_squares(number):
     return int(1/3*number**3 + 1/2*number**2 + 1/6*number)
 
 def square_of_sums(number):
-    """ 
+    """
     Square a triangular number.
 
     1,3,6,10,15,... is a triangular sequence and can therefor be solved
