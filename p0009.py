@@ -8,7 +8,8 @@ from math import prod, sqrt
 def generate_primitive_triple(s):
     """ Euclid's formula.
 
-    https://en.wikipedia.org/wiki/Pythagorean_triple
+    Using Euclid's formula to find primitive triplets. Return the sum
+    of a, b and c if a + b + c = s, for some s.
 
     """
     
