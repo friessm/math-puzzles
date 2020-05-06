@@ -24,5 +24,6 @@ def generate_primitive_triple(s):
             if sum([a, b, c]) == s:
                 return prod([a, b, c])
 
+
 if __name__ == '__main__':
     print(generate_primitive_triple(1000))
