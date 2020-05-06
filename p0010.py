@@ -3,9 +3,6 @@ Solution to Project Euler problem 10
 https://projecteuler.net/problem=10
 """
 
-from math import sqrt, log, ceil
-
-import time
 
 def sieve_of_eratosthenes(number):
     """
