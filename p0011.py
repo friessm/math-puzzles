@@ -46,6 +46,7 @@ def lpig(grid):
                 products.append(prod([int(grid[l+x][n-x]) for x in range(0, 4)]))
     return max(products)
 
+
+
 if __name__ == '__main__':
-    print(lpig(get_grid()))
-    
+    print(lpig(get_grid()))    
