@@ -18,10 +18,8 @@ def trial_division(n):
 
     Find all prime numbers and their exponents of n.
     
-    Output:
-    pe_list = [(p1, e1), (p2, e2), (...)]
-    p = prime number
-    e = exponent of p
+    Return: pe_list = [(p1, e1), (p2, e2), (...)],
+    where p are prime number and e are exponent of p.
 
     """
 
