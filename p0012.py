@@ -9,11 +9,7 @@ from math import prod
 
 
 def triangular_number(n):
-    """ 
-    https://www.mathsisfun.com/algebra/triangular-numbers.html 
-    https://en.wikipedia.org/wiki/Triangular_number 
-    
-    """
+    """ Efficient algorithm to product triangular numbers. """
     return int(n*(n+1) / 2)
 
 
